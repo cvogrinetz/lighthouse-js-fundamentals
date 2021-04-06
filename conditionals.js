@@ -1,11 +1,46 @@
-const temperature = 1000;
+//EXAMPLE 1 IF CONDITIONALS
+const raining = true;
+const cold = false;
+
+if (raining) {
+  console.log("Don't forget your umbrella!");
+}
+
+if (cold) {
+  console.log("Make sure you pick out a scarf!");
+}
+
+console.log("Now you're ready to go outside!");
+
+
+//EXAMPLE 2 IF ELSE SATEMENT
+const temperature = 12;
 
 if (temperature < 0) {
-  console.log("Make sure you pick out a scarf");
+  console.log("Make sure you pick out a scarf!");
 } else if (temperature < 15) {
-  console.log("Short sleeves will not cut it!");
+  console.log("Short sleeves won't cut it!");
 } else {
   console.log("Short sleeves are fine.");
 }
 
-console.log("Now you are ready to go outside!")
+console.log("Now you're ready to go outside!");
+
+
+//EXAMPLE 3 LOGICAL OPERATORS
+
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+
+//EXAMPLE 4 
+const raining = true;
+
+if (!raining) {
+  console.log("Leave your umbrella at home");
+} else {
+  console.log("Looks wet outside");
+}
